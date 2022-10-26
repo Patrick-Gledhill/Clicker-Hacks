@@ -1,6 +1,6 @@
 "use strict"
 
-count = 128;
+count += 128;
 
 btn.onclick = function() {
   count *= 2;
