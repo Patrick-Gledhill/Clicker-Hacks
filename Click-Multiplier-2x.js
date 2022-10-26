@@ -1,5 +1,7 @@
 "use strict"
 
+count = 128;
+
 btn.onclick = function() {
   count *= 2;
   display.innerHTML = count;
