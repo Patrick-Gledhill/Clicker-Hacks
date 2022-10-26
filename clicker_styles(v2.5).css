@@ -1,0 +1,140 @@
+* {
+    font-family: arial;
+    text-align: center;
+    background-color: #202020;
+}
+
+.button {
+    font-size: 0px;
+    background-color: #00ff00;
+    padding: 100px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 0px 25px #00ff00;
+}
+
+.button:active {
+    background-color: #00cc00;
+}
+
+.displaynum {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.upgrade {
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    padding: 25px;
+    border: 2px solid #404040;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.upgrade:hover {
+    background-color: #101010;
+    border-color: #ffffff;
+}
+
+#btnr {
+    color: #ff0000;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+}
+
+#btnr:hover {
+    background-color: #101010;
+    border-color: #ffffff;
+}
+
+#btng {
+    color: #00ff00;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+}
+
+#btng:hover {
+    background-color: #101010;
+    border-color: #ffffff;
+}
+
+#btnb {
+    color: #0000ff;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+}
+
+#btnb:hover {
+    background-color: #101010;
+    border-color: #ffffff;
+}
+
+.colorp {
+    transition: all 0.3s ease 0s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: #202020;
+    padding: 10px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+    width: 218px;
+}
+
+.achievements {
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #202020;
+    padding: 0px;
+    border-bottom: 2px solid #404040;
+    border-radius: 0px;
+    width: 100vw;
+}
+
+.achchild {
+    display: flex;
+    justify-content: center;
+}
+
+.opt {
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    padding: 10px;
+    border: 2px solid #404040;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.opt:hover {
+    background-color: #101010;
+    border-color: #ffffff;
+}
+
+.optcont {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    background-color: #202020;
+    border: 2px solid #404040;
+    border-radius: 10px;
+}

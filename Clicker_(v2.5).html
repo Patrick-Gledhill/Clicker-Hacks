@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="clicker_styles(v2.5).css">
+
+<div class="optcont">
+    <p style="font-size: 25px; color: #ffffff;">Options:</p>
+    <button class="opt" id="showach">View Achievements</button>
+    <button style="display: none;" class="opt" id="hideach">Hide Achievements</button>
+</div>
+
+<div style="display: none;" id="apm" class="achievements">
+    <p style="font-size: 25px; color: #ffffff; margin: 50px 25px 25px 25px;">Achievements:</p>
+    <div class="achchild">
+        <div id="a1" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #ffffff; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px;">Beginner</h3>
+            <p style="font-size: 12px;">Purchased 2x Upgrade</p>
+        </div>
+        
+        <div id="a2" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #00ff00; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #00ff00;">Getting Better</h3>
+            <p style="font-size: 12px;">Purchased 4x Upgrade</p>
+        </div>
+        
+        <div id="a3" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #0080ff; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #0080ff;">Skilled Clicker</h3>
+            <p style="font-size: 12px;">Purchased 8x Upgrade</p>
+        </div>
+        
+        <div id="a4" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #8000ff; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #8000ff;">Fast Clicker</h3>
+            <p style="font-size: 12px;">Purchased 16x Upgrade</p>
+        </div>
+        
+        <div id="a5" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #ff8000; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #ff8000;">Pro Clicker</h3>
+            <p style="font-size: 12px;">Purchased 32x Upgrade</p>
+        </div>
+        
+        <div id="a6" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #ff0000; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #ff0000;">Master Clicker</h3>
+            <p style="font-size: 12px;">Purchased 64x Upgrade</p>
+        </div>
+        
+        <div id="a7" style="color: #ffffff; background-color: #202020; padding: 10px; border: 2px solid #00ff80; border-radius: 10px; display: none; margin: 25px;">
+            <h3 style="font-size: 15px; color: #00ff80;">Auto Clicker?</h3>
+            <p style="font-size: 12px;">Purchased 128x Upgrade</p>
+        </div>
+    </div>
+</div>
+
+<p id="display" class="displaynum">Click To Start</p>
+
+<button id="btn" tabindex="-1" class="button">+</button><br>
+
+<div class="colorp">
+    <p style="color: #ffffff;">Button Color:</p>
+    <button id="btnr">Red</button>
+    <button id="btng">Green</button>
+    <button id="btnb">Blue</button>
+</div>
+
+<button type="button" id="upgrade" class="upgrade">Click Button To Upgrade To 2x Per Click<br>Click Cost: 100</button>
+
+<button style="display: none;" type="button" id="upgrade2" class="upgrade">Click Button To Upgrade To 4x Per Click<br>Click Cost: 250</button>
+
+
+<button style="display: none;" type="button" id="upgrade3" class="upgrade">Click Button To Upgrade To 8x Per Click<br>Click Cost: 500</button>
+
+<button style="display: none;" type="button" id="upgrade4" class="upgrade">Click Button To Upgrade To 16x Per Click<br>Click Cost: 1000</button>
+
+<button style="display: none;" type="button" id="upgrade5" class="upgrade">Click Button To Upgrade To 32x Per Click<br>Click Cost: 2500</button>
+
+<button style="display: none;" type="button" id="upgrade6" class="upgrade">Click Button To Upgrade To 64x Per Click<br>Click Cost: 5000</button>
+
+<button style="display: none;" type="button" id="upgrade7" class="upgrade">Click Button To Upgrade To 128x Per Click<br>Click Cost: 10000</button>
+
+<script src="clickerjs(v2.5).js"></script>
